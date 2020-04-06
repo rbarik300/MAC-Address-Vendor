@@ -5,4 +5,4 @@ Example:
 export MACADDRESSIO_API_KEY=at_zQNhytkhnbEH7V4dSsdnYzzy7QtxS
 the above string is a randomly generated value and if you copy paste this exactly it will result in "error": "Access restricted. Enter the correct API key."
 And then run
-./mac_vendor.py -m "443839ffef57"
+./mac_addr_vendor.py -m "443839ffef57"
