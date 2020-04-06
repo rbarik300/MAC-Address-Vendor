@@ -11,3 +11,13 @@ the above string is a randomly generated value and if you copy paste this exactl
 
 And then run
 ./mac_addr_vendor.py -m "443839ffef57"
+
+
+This should give output of the company name. For the above example it would show:
+Cumulus Networks, Inc
+
+
+Running with Docker
+For your convenience a Dockerfile has also been provided along with the code.
+
+docker run --env MACADDRESSIO_API_KEY=key <image_name> mac_vendor.py <MAC_ADDRESS> <OPTIONAL_PARAMS>
