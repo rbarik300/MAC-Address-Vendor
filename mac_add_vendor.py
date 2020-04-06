@@ -10,7 +10,7 @@ import json
 logging.basicConfig(
     level=logging.WARN,
     format="%(levelname)s %(asctime)s %(message)s",
-    handlers=[logging.FileHandler("mac_vendor.log"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("mac_add_vendor.log"), logging.StreamHandler()],
 )
 
 
